@@ -1,0 +1,145 @@
+.section6{
+    width: 85%;
+    margin: 50px auto;
+}
+
+.section6Title{
+    width: 30%;
+    margin: auto auto 30px;
+    text-align: center;
+}
+
+.section6Title p{
+    color: #f35525;
+    font-weight: 600;
+}
+
+.section6Title h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 55px;
+}
+
+.mainVillaCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.villaCards{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.section6Card{
+    width: 95%;
+    margin: auto;
+    padding: 30px 15px;
+}
+
+.section6Card img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.cardTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTitle h6{
+    padding: 6px 13px;
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.cardTP{
+    color: #f35525;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.streetNo{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.cardText{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardText p{
+    flex-basis: 50%;
+    margin-bottom: 3px;
+}
+
+.cardText span{
+    font-weight: 600;
+}
+
+.section6 hr{
+    width: 85%;
+    margin: 30px auto;
+    color: gray;
+}
+
+.cardButton p{
+    width: 65%;
+    margin: 30px auto 0;
+    padding: 9px 25px; 
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media(max-width:1250px){
+    .section6Title{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media(max-width:700px){
+    .section6Title{
+        width: 90%;
+        margin: auto;
+    }
+
+    .villaCards{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:1000px){
+    .mainVillaCards{
+        display: block;
+    }
+
+    .villaCards{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+}

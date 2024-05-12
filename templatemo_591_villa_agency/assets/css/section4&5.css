@@ -1,0 +1,145 @@
+.section4and5{
+    background-color: #e3e3e3;
+    padding: 120px 0 40px;
+    margin-bottom: 100px;
+}
+
+.section4{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4Title{
+    width: 30%;
+}
+
+.section4Title p{
+    color: #f35525;
+    font-weight: 600;
+}
+
+.section4Title h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 55px;
+}
+
+.section4Accordion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.section4Accordion p{
+    width: 150px;
+    height: 50px;
+    padding: 13px 10px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.section4Accordion .active{
+    background-color: #f35525;
+}
+
+.section5{
+    width: 90%;
+    margin:  50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.removepadding{
+    width: 22%;
+}
+
+.section5Left{
+    background-color: transparent;
+    padding: 40px 20px 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    justify-content: center;
+}
+
+.section5LeftText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5LeftText p{
+    color: gray;
+}
+
+.section5LeftText h6{
+    font-weight: 700;
+}
+
+.section5Left hr{
+    margin: 10px auto 20px!important;
+}
+
+.section5img{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.section5img img{
+    width: 100%;
+}
+
+.section5RightText{
+    width: 23%;
+}
+
+.section5RightTitle{
+    font-weight: 700 !important;
+}
+
+.section5RightText p{
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.section5Schedule{
+    width: 70%;
+}
+
+@media(max-width:900px){
+    .section4{
+        display: block;
+    }
+    
+    .section4Title{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .section5{
+        display: block;
+    }
+
+    .removepadding{
+        width: 90%;
+        margin: auto auto 30px;
+    }
+
+    .section5img{
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    .section5RightText{
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+}
+
+.capTions{
+    width: 60%;
+    margin: 110px auto;
+}
+
+.location{
+    width: 170px;
+    padding: 5px 1px;
+    background-color: white;
+    color: black;
+}
+
+.location span{
+    color: #FE5525;
+}
+
+.heroCaption{
+    width: 40%;
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: left;
+}
+
+.heroCaption span{
+    display: block;
+}
+
+.carousel-indicators{
+    width: 19%;
+}
+
+.carousel-indicators .active{
+    background-color: #FE5525;
+}
+
+@media(max-width:1100px){
+    .capTions{
+        width: 80%;
+        margin: 70px auto;
+    }
+    
+}

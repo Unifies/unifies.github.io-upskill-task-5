@@ -1,0 +1,150 @@
+body{
+    font-family: 'Poppins' !important;
+    width: 100%;
+}
+
+.infoLinks{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 5px;
+}
+
+.emailLocation{
+    display: flex;
+    
+}
+
+.emailLocationFlex{
+    display: flex;
+}
+
+.emailLocation i{
+    margin-right: 10px;
+    color: #f35525;
+}
+
+.emailLocation p{
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+.socialIcons i{
+    padding: 5px;
+    margin: 0 3px;
+    background-color: lightgray;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.socialIcons i:hover{
+    background-color: #f35525;
+}
+
+nav{
+    width: 100%;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    Position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+.logo p{
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.pages{
+    display: flex;
+}
+
+.responsive{
+    display: flex;
+}
+
+.responsive i{
+    margin: 10px 30px 0;
+    color: #f35525;
+    display: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 5px 30px;
+    cursor: pointer;
+}
+
+ul .active{
+    color: #f35525;
+}
+
+li:hover{
+    color: #f35525;
+}
+
+.schedule{
+    position: relative;
+    align-items: center;
+}
+
+.schedule i{
+    margin: 0 15px 0 -5px;
+    padding: 10px;
+    color: white;
+    background-color: #f35525;
+    border-radius: 50%;
+    cursor: pointer;
+    align-self: center;
+    z-index: 100;
+    position: absolute;
+}
+
+.schedule p{
+    padding: 12px 20px 12px 40px;
+    background-color: black;
+    color: white;
+    align-self: center;
+    border-radius: 20px;
+    line-height: 15px;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.schedule p:hover{
+    color: #f35525;
+}
+
+@media(max-width:1000px){
+    .infoLinks{
+        display: block;
+    }
+
+    .emailLocation{
+        display: block;
+    }
+
+    ul{
+        display: none;
+    }
+
+    .responsive i{
+        display: block;
+    }
+}
