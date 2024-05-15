@@ -36,6 +36,7 @@
     width: 70%;
     margin: auto;
     text-align: center;
+    justify-content: center;
 }
 
 .section2VideoFrame i{
@@ -120,5 +121,29 @@
 
     .section2Background img{
         height: 50vh;
+    }
+
+    .section2Background img{
+       display: none;
+    }
+
+    .section2Video{
+        margin: 0;
+    }
+
+    .section2Title h2{
+        color: black;
+    }
+
+    .section2VideoFrame img{
+        margin: -440px 0 -370px;
+    }
+
+    .section2VideoFrame i{
+        margin-top: 40px;
+    }
+
+    .section3{
+        margin: 100px auto 100px;
     }
 }

@@ -174,4 +174,23 @@ form{
         text-align: center;
     }
 
+    .contactBg img{
+        display: none;
+    }
+
+    .contactContent{
+        width: 90%;
+        margin: -870px auto auto;
+    }
+    
+    .contactTitle{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contactTitle h1{
+        color: black;
+    }
+
 }
